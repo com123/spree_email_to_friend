@@ -15,8 +15,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 1.3.0'
-  s.add_dependency 'recaptcha', '>= 0.3.1'
+
 
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'sqlite3'
